@@ -1,3 +1,49 @@
 body{
     background-color: lightcoral;
 }
+
+
+
+.commnet-container{
+    width: 70%;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.comment-section{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.commnet-title h1{
+    font-size: 2em;
+}
+
+
+.commnet-card{
+    text-align: left;
+    border: 2px solid cornsilk;
+    border-radius: 10px;
+    padding: 0 3rem;
+    margin-bottom: 1rem;
+}
+
+
+#post-comment{
+    border: 0;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+}
+
+.submit-button{
+    padding: .75rem 2rem;
+    background-color: lightskyblue;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: #6a89cc;
+    color: #ffffff;
+}
